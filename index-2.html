@@ -1,0 +1,541 @@
+<html>
+    <head>
+        <title>AMINDA - Your Next e-Shopping Era</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">        
+        <link type="text/css" rel="stylesheet" href="font/fontello/css/fontello.css"/>
+        <link type="text/css" rel="stylesheet" href="stylesheet/stylesheet.css"/>        
+        <style type="text/css">
+            body,
+            body * {
+                color: #999;
+                font-family: Arial,sans-serif,sans-serif;
+                font-feature-settings: "liga";
+                font-size: 14px;
+                line-height: 1.4em;
+            }
+            
+            * {
+                box-sizing: border-box;
+            }
+        </style>
+        <script type="text/javascript">
+//            window.onload = function() {
+//                var img = new Image();
+//                img.onload = function() {
+//                    var prop = {
+//                        "height" : img.naturalHeight,
+//                        "width"  : img.naturalWidth,
+//                        "ar"     : function() {
+//                            return (this.width / this.height);
+//                        }
+//                    };
+//                    
+//                    console.log(prop);
+//                    console.log(prop.ar());
+//                };
+//                img.src = "//cdn.shopify.com/s/files/1/0848/3488/t/10/assets/homepage_feat_img_1.jpg?13796671058548742836";
+//            };
+
+            $(document).ready(function(){
+                $(window).resize(function() {
+                   if ($(window).width() <= 640) {
+                      // Leave empty
+                   }
+                   else {
+                     // Rest of your jQuery code can go here
+                      $("div").remove(".top-row-image");
+                      $("div").remove(".bottom-row-image");
+                   }
+                });
+             });
+        </script>
+    </head>
+    <body>        
+        <div id="main-div">
+            <div id="main-content-div">
+                <section id="slider-content-div" style="padding-bottom: 20px">
+                    <div class="container">
+                        <div class="title-wrapper column">
+                            <div class="title">
+                                <a>
+                                    <img alt="" src="images/logo.png">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="slider-div column">
+                            <div class="slider-content">
+                                <a>
+                                    <img alt="" src="images/main-image.jpg">
+                                </a> 
+                            </div>                        
+                        </div>
+                    </div>
+                </section>  
+                <section id="sale-content-div">
+                    <div class="container">
+                        <div class="second-row-wrapper">
+                            <div class="middle-row-image">
+                                <div class="first-section-image">
+                                    <div class="image column inner">                                        
+                                        <a href="">
+                                            <img alt=""  src="images/sale.jpg">
+                                            <div class="inner-content">
+                                                <div class="inner-description">Leftovers from the Kiln. Shop now.</div>
+                                            </div>                                            
+                                        </a>
+                                    </div>
+                                    <div class="image column inner">
+                                        <a href="">
+                                            <img alt=""  src="images/shop.jpg">
+                                            <div class="inner-content">
+                                                <div class="inner-description">Shop our Best Sellers.</div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="image column inner">
+                                        <a href="">
+                                            <img alt=""  src="images/recipe.jpg">
+                                            <div class="inner-content">
+                                                <div class="inner-description">Recipes.</div>
+                                            </div>
+                                        </a>                                            
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="second-section-image">
+                                <div class="image column inner">
+                                    <a href="">
+                                        <img alt="" src="images/studio.jpg">
+                                        <div class="inner-content-bottom">
+                                                <div class="inner-description">The Studio.</div>
+                                            </div>
+                                    </a> 
+                                </div>
+                                <div class="image column inner">
+                                    <a href="">
+                                        <img alt="" src="images/collections.jpg">
+                                        <div class="inner-content-bottom">
+                                                <div class="inner-description">Our Collections.</div>
+                                            </div>
+                                    </a>  
+                                </div>
+                                <div class="image column inner" >
+                                    <a href="">
+                                        <img alt="" src="images/custom.jpg">
+                                        <div class="inner-content-bottom">
+                                                <div class="inner-description">Create your custom registry.</div>
+                                        </div>
+                                    </a>                                      
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section id="featured-content-div">
+                    <div class="container">
+                        <div class="featured-wrapper">
+                            <div class="opposing-items column">
+                                <h1 class="featured">
+                                    <a style="font-size: 1.8em !important">Featured</a>
+                                </h1>
+                                <a class="view-button btn" href="">
+                                    <span class="view-all">View All</span>
+                                </a>
+                            </div>
+                            <div class="top-row-image">
+                                <div class="product-image column">
+                                    <div class="image inner">                                        
+                                        <a href="">
+                                            <img alt=""  src="images/featured-1.jpg">
+                                        </a> 
+                                        <div class="featured-content">
+                                            <a href="" class="featured-button round-button">Quick shop</a>
+                                        </div>
+                                    </div>
+                                    <div class="description-wrapper">
+                                        <div class="description-arrange">
+                                            <a class="description"  href="">Coupe 7 Piece Place Setting</a>
+                                            <div class="price-description">
+                                                <span>From</span>
+                                                <span class="price-wrapper">
+                                                    <span class="price">$12.00</span>                                                        
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-image column">
+                                    <div class="image inner">
+                                        <a href="">
+                                            <img alt=""  src="images/featured-2.jpg">
+                                        </a>
+                                        <div class="featured-content">
+                                            <a href="" class="featured-button round-button">Quick shop</a>
+                                        </div>
+                                    </div>
+                                    <div class="description-wrapper">
+                                        <div class="description-arrange">
+                                            <a class="description"  href="">Kitchen Planter Set</a>
+                                            <div class="price-description">
+                                                <span class="price-wrapper">
+                                                    <span class="price">$160.00</span>                                                        
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-image column">
+                                    <div class="image inner"> 
+                                            <a href="">
+                                                <img alt=""  src="images/featured-3.jpg">
+                                                <span class="product-label">
+                                                    <span>Sale</span>
+                                                </span>
+                                            </a>
+                                            <div class="featured-content">
+                                                <a href="" class="featured-button round-button">Quick shop</a>
+                                            </div>
+                                    </div>
+                                    <div class="description-wrapper">
+                                        <div class="description-arrange">
+                                            <a class="description"  href="">Coupe Bread Plate</a>
+                                            <div class="price-description">
+                                                <span class="price-wrapper on-sale">
+                                                    <span class="price">$19.00</span>
+                                                    <del>$22.00</del>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="bottom-row-image">
+                                <div class="product-image column">
+                                    <div class="image inner">
+                                        <a href="">
+                                            <img alt=""  src="images/featured-4.jpg">
+                                        </a>
+                                        <div class="featured-content">
+                                            <a href="" class="featured-button round-button">Quick shop</a>
+                                        </div>
+                                    </div>
+                                    <div class="description-wrapper">
+                                        <div class="description-arrange">
+                                            <a class="description"  href="">Rimmed Salad Plate</a>
+                                            <div class="price-description">
+                                                <span class="price-wrapper">
+                                                    <span class="price">$29.00</span>                                                        
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-image column">
+                                    <div class="image inner">
+                                        <a href="">
+                                            <img alt=""  src="images/featured-5.jpg">
+                                        </a>
+                                        <div class="featured-content">
+                                            <a href="" class="featured-button round-button">Quick shop</a>
+                                        </div>
+                                    </div>
+                                    <div class="description-wrapper">
+                                        <div class="description-arrange">
+                                            <a class="description"  href="">Coupe Pasta Bowl</a>
+                                            <div class="price-description">
+                                                <span class="price-wrapper">
+                                                    <span class="price">$32.50</span>                                                        
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-image column">
+                                    <div class="image inner">
+                                        <a href="">
+                                            <img alt=""  src="images/featured-6.jpg">
+                                        </a>
+                                        <div class="featured-content">
+                                            <a href="" class="featured-button round-button">Quick shop</a>
+                                        </div>
+                                    </div>
+                                    <div class="description-wrapper">
+                                        <div class="description-arrange">
+                                            <a class="description"  href="">Coupe Rice Bowl</a>
+                                            <div class="price-description">
+                                                <span class="price-wrapper">
+                                                    <span class="price">$23.00</span>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section id="news-content-div">
+                    <div class="container">
+                        <div class="news-wrapper">
+                            <div class="opposing-items column">
+                                <h1 class="news">
+                                    <a style="font-size: 1.8em !important">News</a>
+                                </h1>
+                                <a class="view-button btn" href="/blogs/news">
+                                    <span class="view-all">View All</span>
+                                </a>
+                            </div>
+                            <div class="news-row-image">
+                                <div class="article-column third-column column">
+                                    <div class="news-image">
+                                        <a href="">
+                                            <img alt=""  src="images/news-1.jpg">
+                                        </a>
+                                    </div>
+                                    <div class="column-wrapper">
+                                        <div class="column-arrange">
+                                            <h2 class="column-title">
+                                                <a href="">Spice is Nice</a>
+                                            </h2>
+                                            <div class="column-description">
+                                                <p>Dandelion zucchini burdock yarrow chickpea dandelion sorrel courgette turnip greens tigernut soybean radish artichoke wattle seed endive groundnut broccoli arugula.</p>
+                                                <p>John Llewellyn-Smith</p>
+                                            </div>
+                                            <div class="read-more">
+                                                <a>Read More</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="article-column third-column column">
+                                    <div class="news-image">
+                                        <a href="">
+                                            <img alt=""  src="images/news-2.jpg" style="top: -15.889%;">
+                                        </a>
+                                    </div>
+                                    <div class="column-wrapper">
+                                        <div class="column-arrange">
+                                            <h2 class="column-title">
+                                                <a  href="">3 Piece Serving Tray</a>
+                                            </h2>
+                                            <div class="column-description">
+                                                <p>Grape silver beet watercress potato tigernut corn groundnut. Chickweed okra pea winter purslane coriander yarrow sweet pepper radish garlic brussels sprout groundnut summer purslane earthnut pea tomato spring onion azuki bean gourd.</p>
+                                                <p>Suzie Swift</p>
+                                            </div>
+                                            <div class="read-more">
+                                                <a>Read More</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="article-column third-column column">
+                                    <div class="news-image">
+                                        <a href="">
+                                            <img alt=""  src="images/news-3.jpg">
+                                        </a>
+                                    </div>
+                                    <div class="column-wrapper">
+                                        <div class="column-arrange">
+                                            <h2 class="column-title">
+                                                <a href="">Marbled Vases</a>
+                                            </h2>
+                                            <div class="column-description">
+                                                <p>Beetroot water spinach okra water chestnut ricebean pea catsear courgette summer purslane. Water spinach arugula pea tatsoi aubergine spring onion bush tomato kale radicchio turnip chicory salsify.</p>
+                                                <p>Suzie Swift</p>
+                                            </div>
+                                            <div class="read-more">
+                                                <a>Read More</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section id="instagram-content-div">
+                    <div class="container">
+                        <div class="opposing-items column">
+                            <h1 class="instagram" style="font-size: 1.8em !important; color: #333; margin-top: 0;">Instagram</h1>
+                            <span class="follow">
+                                Follow <a href="" class="insta-follow">@cleanthemes77</a>
+                            </span>
+                        </div>
+                    <div class="willstagram">
+                        <ul class="items">
+                            <li>
+                                <div class="item">
+                                    <a href="">
+                                        <img alt=""  src="images/insta-1.jpg">
+                                    </a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="item">
+                                    <a href="">
+                                        <img alt=""  src="images/insta-2.jpg">
+                                    </a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="item">
+                                    <a href="">
+                                        <img alt=""  src="images/insta-3.jpg">
+                                    </a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="item">
+                                    <a href="">
+                                        <img alt=""  src="images/insta-4.jpg">
+                                    </a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="item">
+                                    <a href="">
+                                        <img alt=""  src="images/insta-5.jpg">
+                                    </a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="item">
+                                    <a href="">
+                                        <img alt=""  src="images/insta-6.jpg">
+                                    </a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="item">
+                                    <a href="">
+                                        <img alt=""  src="images/insta-7.jpg">
+                                    </a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+                <section id="page-footer" class="page-footer">
+                    <div class="container">
+                        <a class="hash-link">Back to the top <i class="icon-up-open" style="font-size: 10px"></i></a>
+                        <div class="section padless-top">
+                            <div class="extra-column half">
+                                <div id="mailing-list">
+                                    <form id="contact_form" class="contact-form" method="post">
+                                        <div class="input-row inline-input-button">
+                                            <input id="mailinglist_email" type="email" placeholder="Email address">
+                                            <input type="submit" value="Subscribe">
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="extra-column" style="text-align: right">
+                                <ul class="social-links plain">
+                                    <li class="icon-padding">
+                                        <a class="icon-twitter" href="" target="_blank" title="Twitter">
+                                            <span>Twitter</span>
+                                        </a>
+                                    </li>
+                                    <li class="icon-padding">
+                                        <a class="icon-facebook" href="" target="_blank" title="Facebook">
+                                            <span>Facebook</span>
+                                        </a>
+                                    </li>
+                                    <li class="icon-padding">
+                                        <a class="icon-path-1" href="" target="_blank" title="Pinterest">
+                                            <span>Pinterest</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="section padless-top" style="margin-bottom: 20px">
+                            <div class="title footer-logo column">
+                                <a href="">
+                                    <img alt=""  src="images/logo.png">
+                                </a>
+                            </div>
+                            <div class="text-column">
+                                <p class="footer-text">
+                                    <span>Welcome to Kiln. </span>
+                                    <a href="">Visit his shop</a>
+                                    <span> to check out all of his gorgeous ceramics. </span>
+                                    <span>Photographs with kind permission Francesco Tonelli.</span>
+                                </p>
+                            </div>
+                            <div class="links-column">
+                                <ul class="plain">
+                                    <li>
+                                        <a title="" href="">Collections</a>
+                                    </li>
+                                    <li>
+                                        <a title="" href="">Hospitality</a>
+                                    </li>
+                                    <li>
+                                        <a title="" href="">Registry</a>
+                                    </li>
+                                    <li>
+                                        <a title="" href="">Contact</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="links-column">
+                                <ul class="plain">
+                                    <li>
+                                        <a title="" href="">About Jono</a>
+                                    </li>
+                                    <li>
+                                        <a title="" href="">The studio</a>
+                                    </li>
+                                    <li>
+                                        <a title="" href="">Journal</a>
+                                    </li>
+                                    <li>
+                                        <a title="" href="">Search</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="links-column column">
+                                <ul class="plain">
+                                    <li>
+                                        <a title="" href="">Contact us</a>
+                                    </li>
+                                    <li>
+                                        <a title="" href="">Press</a>
+                                    </li>
+                                    <li>
+                                        <a title="" href="">Client list</a>
+                                    </li>
+                                    <li>
+                                        <a title="" href="">Internships</a>
+                                    </li>
+                                    <li>
+                                        <a title="" href="">Mailing list</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div> 
+                        <div class="bottom-row column">
+                            <div class="inline-item">
+                                <div class="copy">
+                                Copyright © 2016
+                                    <a title="" href="/">Kiln</a>.
+                                </div>
+                                
+                            </div>
+                            <div class="payment-methods">
+                                <img alt=""  src="images/payment-1.svg">
+                                <img alt=""  src="images/payment-2.svg">
+                                <img alt=""  src="images/payment-3.svg">
+                                <img alt=""  src="images/payment-4.svg">
+                                <img alt=""  src="images/payment-5.svg">
+                                <img alt=""  src="images/payment-6.svg">
+                            </div>
+                        </div>
+                    </div>
+                </section>                 
+            </div>             
+        </div>        
+    </body>
+</html>
